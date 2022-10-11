@@ -1,0 +1,32 @@
+.movie-page{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding-top: 5rem;
+    position: relative;
+}
+.card-main-div{
+    text-decoration: none;
+}
+.card-div{
+cursor: pointer;
+padding: 1rem 1rem;
+}
+
+.card-div:hover{
+    border-radius: 10px;
+    background-color: black;
+}
+
+.date-div{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.star{
+    color: yellow;
+}
+
+.star>.vote{
+    color:black
+}
